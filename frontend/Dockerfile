@@ -1,4 +1,4 @@
-# production environment
+# production environment test1
 FROM ${ARCH}nginx:stable-alpine
 # COPY --from=build /app/build /usr/share/nginx/html
 COPY build /usr/share/nginx/html
